@@ -1,0 +1,160 @@
+.body {
+    width: 216mm;
+    height: 274mm;
+    margin-bottom: 5mm;
+}
+body {
+    display: grid;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'ProximaNova-Extrabold';
+    src: url(./fonts/Proxima-Nova-Extrabold.ttf);
+}
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src: url(./fonts/Proxima-Nova-Bold.ttf);
+}
+@font-face {
+    font-family: 'ProximaNova-semibold';
+    src: url(./fonts/Proxima-Nova-Semibold.ttf);
+}
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url(./fonts/Proxima-Nova-Regular.ttf);
+}
+.header {
+    display: grid;
+    height: 30mm;
+    background-color: #f0f5fb;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    align-content: center;
+    margin-bottom: 5mm;
+}
+.name {
+    font-family: 'ProximaNova-Extrabold';
+    font-size: 30pt;
+    color: #303578;
+}
+.subName {
+    font-family: 'ProximaNova-Bold';
+    font-size: 12pt;
+    color: #77a4db;
+}
+.containerOne {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    margin-bottom: 5mm;
+    column-gap: 10mm
+}
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    margin-bottom: 5mm;
+    column-gap: 3mm;
+}
+.subtitle {
+    font-family: 'ProximaNova-Bold';
+    color: #303578;
+    border-bottom: 1mm solid #d8d4e4;
+}
+.contactTitle {
+    font-family: 'ProximaNova-semibold';
+    color: #303578;
+    margin-right: 2mm;
+}
+.contactGroup {
+    display: flex;
+    align-items: center;
+}
+.contactSub {
+    font-family: 'ProximaNova-Regular';
+    font-size: 10pt;
+}
+.resumen {
+    font-family: 'ProximaNova-Regular';
+    font-size: 10pt;
+    letter-spacing: 0.3pt;
+    line-height: 5mm;
+}
+.skill {
+    font-family: 'ProximaNova-Bold';
+    letter-spacing: 0.3pt;
+    line-height: 5mm;
+}
+.titleExperiences {
+    margin-bottom: 3mm;
+    width: min-content;
+    border: none
+}
+.titleJob {
+    font-family: 'ProximaNova-Bold';
+    font-size: 12pt;
+}
+.subtitleJob {
+    font-family: 'ProximaNova-semibold';
+    font-size: 8pt;
+    color: #77a4db;
+}
+.experiences {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5mm;
+    row-gap: 5mm;
+}
+.school {
+    font-family: 'ProximaNova-semibold';
+    font-size: 10pt;
+    letter-spacing: 0.3pt;
+}
+.time {
+    font-family: 'ProximaNova-Regular';
+    font-size: 8pt;
+    letter-spacing: 0.3pt;
+}
+.resumen.two {
+    line-height: 4mm;
+}
+.line {
+    border-bottom: 1px solid #303578;
+    margin-bottom: 3mm;
+}
+.middleCon {
+    border-bottom: 1mm solid #d8d4e4;
+    height: min-content;
+}
+.middleCon2 {
+    border-bottom: 1mm solid #d8d4e4;
+    height: min-content;
+}
+.subtitle.skills {
+    width: min-content;
+    border: none;
+}
+.subTextJob {
+    font-family: 'ProximaNova-Regular';
+    font-size: 6pt;
+    letter-spacing: 0.3pt;
+    line-height: 1.8mm;
+    font-style: oblique;
+}
+.level {
+    font-family: 'ProximaNova-Semibold';
+    font-size: 10pt;
+    letter-spacing: 0.3pt;
+    color: #77a4db;
+    margin-left: 3mm;
+}
+.titleJob.eng {
+    font-size: 10pt;
+}
+.engl {
+    width: 50%;
+    margin-left: 6mm;
+    margin-bottom: 3mm;
+}
