@@ -46,7 +46,7 @@ body {
     grid-template-columns: 1fr 4fr;
     padding-left: 10mm;
     padding-right: 10mm;
-    margin-bottom: 5mm;
+    margin-bottom: 7mm;
     column-gap: 10mm
 }
 .middle {
@@ -125,7 +125,8 @@ body {
 }
 .middleCon {
     border-bottom: 1mm solid #d8d4e4;
-    height: min-content;
+    display: grid;
+    grid-template-rows: 4mm;
 }
 .middleCon2 {
     border-bottom: 1mm solid #d8d4e4;
@@ -156,4 +157,5 @@ body {
     width: 50%;
     margin-left: 6mm;
     margin-bottom: 3mm;
+    align-self: end;
 }
