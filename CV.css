@@ -1,7 +1,6 @@
 .body {
     width: 216mm;
     height: 274mm;
-    margin-bottom: 5mm;
 }
 body {
     display: grid;
