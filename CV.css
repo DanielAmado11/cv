@@ -5,6 +5,7 @@
 body {
     display: grid;
     justify-content: center;
+    width: fit-content;
 }
 @font-face {
     font-family: 'ProximaNova-Extrabold';
