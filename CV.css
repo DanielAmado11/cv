@@ -1,6 +1,7 @@
 .body {
     width: 216mm;
     height: 274mm;
+    margin-bottom: 5mm;
 }
 body {
     display: grid;
@@ -46,7 +47,7 @@ body {
     grid-template-columns: 1fr 4fr;
     padding-left: 10mm;
     padding-right: 10mm;
-    margin-bottom: 7mm;
+    margin-bottom: 5mm;
     column-gap: 10mm
 }
 .middle {
@@ -61,11 +62,13 @@ body {
     font-family: 'ProximaNova-Bold';
     color: #303578;
     border-bottom: 1mm solid #d8d4e4;
+    font-size: 1.8vh;
 }
 .contactTitle {
     font-family: 'ProximaNova-semibold';
     color: #303578;
     margin-right: 2mm;
+    font-size: 1.5vh;
 }
 .contactGroup {
     display: flex;
@@ -73,31 +76,34 @@ body {
 }
 .contactSub {
     font-family: 'ProximaNova-Regular';
-    font-size: 10pt;
+    font-size: 1.5vh;
 }
 .resumen {
     font-family: 'ProximaNova-Regular';
-    font-size: 10pt;
-    letter-spacing: 0.3pt;
-    line-height: 5mm;
+    font-size: 1.5vh;
+    letter-spacing: 0.1pt;
+    line-height: 4mm;
 }
 .skill {
     font-family: 'ProximaNova-Bold';
     letter-spacing: 0.3pt;
     line-height: 5mm;
+    font-size: 1.6vh;
 }
 .titleExperiences {
     margin-bottom: 3mm;
     width: min-content;
-    border: none
+    border: none;
+    font-size: 1.8vh;
+    
 }
 .titleJob {
     font-family: 'ProximaNova-Bold';
-    font-size: 12pt;
+    font-size: 1.8vh;
 }
 .subtitleJob {
     font-family: 'ProximaNova-semibold';
-    font-size: 8pt;
+    font-size: 1.4vh;
     color: #77a4db;
 }
 .experiences {
@@ -114,7 +120,6 @@ body {
 .time {
     font-family: 'ProximaNova-Regular';
     font-size: 8pt;
-    letter-spacing: 0.3pt;
 }
 .resumen.two {
     line-height: 4mm;
@@ -125,8 +130,6 @@ body {
 }
 .middleCon {
     border-bottom: 1mm solid #d8d4e4;
-    display: grid;
-    grid-template-rows: 4mm;
 }
 .middleCon2 {
     border-bottom: 1mm solid #d8d4e4;
@@ -156,6 +159,5 @@ body {
 .engl {
     width: 50%;
     margin-left: 6mm;
-    margin-bottom: 3mm;
-    align-self: end;
+    margin-top: 45vh;
 }
