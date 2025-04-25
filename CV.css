@@ -1,163 +1,169 @@
 .body {
-    width: 216mm;
-    height: 274mm;
-    margin-bottom: 5mm;
+  width: 210mm; /* Cambiado a tamaño A4 estándar */
+  height: 297mm; /* Cambiado a tamaño A4 estándar */
+  margin: 0; /* Eliminar márgenes */
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Asegúrate de que el body principal no tenga márgenes */
 body {
-    display: grid;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
 @font-face {
-    font-family: 'ProximaNova-Extrabold';
-    src: url(./fonts/Proxima-Nova-Extrabold.ttf);
+  font-family: "ProximaNova-Extrabold";
+  src: url(./fonts/Proxima-Nova-Extrabold.ttf);
 }
 @font-face {
-    font-family: 'ProximaNova-Bold';
-    src: url(./fonts/Proxima-Nova-Bold.ttf);
+  font-family: "ProximaNova-Bold";
+  src: url(./fonts/Proxima-Nova-Bold.ttf);
 }
 @font-face {
-    font-family: 'ProximaNova-semibold';
-    src: url(./fonts/Proxima-Nova-Semibold.ttf);
+  font-family: "ProximaNova-semibold";
+  src: url(./fonts/Proxima-Nova-Semibold.ttf);
 }
 @font-face {
-    font-family: 'ProximaNova-Regular';
-    src: url(./fonts/Proxima-Nova-Regular.ttf);
+  font-family: "ProximaNova-Regular";
+  src: url(./fonts/Proxima-Nova-Regular.ttf);
 }
 .header {
-    display: grid;
-    height: 30mm;
-    background-color: #f0f5fb;
-    padding-left: 10mm;
-    padding-right: 10mm;
-    align-content: center;
-    margin-bottom: 5mm;
+  display: grid;
+  height: 30mm;
+  background-color: #f0f5fb;
+  padding-left: 10mm;
+  padding-right: 10mm;
+  align-content: center;
+  margin-bottom: 5mm;
 }
 .name {
-    font-family: 'ProximaNova-Extrabold';
-    font-size: 30pt;
-    color: #303578;
+  font-family: "ProximaNova-Extrabold";
+  font-size: 30pt;
+  color: #303578;
 }
 .subName {
-    font-family: 'ProximaNova-Bold';
-    font-size: 12pt;
-    color: #77a4db;
+  font-family: "ProximaNova-Bold";
+  font-size: 12pt;
+  color: #77a4db;
 }
 .containerOne {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding-left: 10mm;
-    padding-right: 10mm;
-    margin-bottom: 5mm;
-    column-gap: 10mm
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-left: 10mm;
+  padding-right: 10mm;
+  margin-bottom: 5mm;
+  column-gap: 10mm;
 }
 .middle {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 10mm;
-    padding-right: 10mm;
-    margin-bottom: 5mm;
-    column-gap: 3mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10mm;
+  padding-right: 10mm;
+  margin-bottom: 5mm;
+  column-gap: 3mm;
 }
 .subtitle {
-    font-family: 'ProximaNova-Bold';
-    color: #303578;
-    border-bottom: 1mm solid #d8d4e4;
-    font-size: 1.8vh;
+  font-family: "ProximaNova-Bold";
+  color: #303578;
+  border-bottom: 1mm solid #d8d4e4;
+  font-size: 1.8vh;
 }
 .contactTitle {
-    font-family: 'ProximaNova-semibold';
-    color: #303578;
-    margin-right: 2mm;
-    font-size: 1.5vh;
+  font-family: "ProximaNova-semibold";
+  color: #303578;
+  margin-right: 2mm;
+  font-size: 1.5vh;
 }
 .contactGroup {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .contactSub {
-    font-family: 'ProximaNova-Regular';
-    font-size: 1.5vh;
+  font-family: "ProximaNova-Regular";
+  font-size: 1.5vh;
 }
 .resumen {
-    font-family: 'ProximaNova-Regular';
-    font-size: 1.5vh;
-    letter-spacing: 0.1pt;
-    line-height: 4mm;
+  font-family: "ProximaNova-Regular";
+  font-size: 1.5vh;
+  letter-spacing: 0.1pt;
+  line-height: 4mm;
 }
 .skill {
-    font-family: 'ProximaNova-Bold';
-    letter-spacing: 0.3pt;
-    line-height: 5mm;
-    font-size: 1.6vh;
+  font-family: "ProximaNova-Bold";
+  letter-spacing: 0.3pt;
+  line-height: 5mm;
+  font-size: 1.6vh;
 }
 .titleExperiences {
-    margin-bottom: 3mm;
-    width: min-content;
-    border: none;
-    font-size: 1.8vh;
-    
+  margin-bottom: 3mm;
+  width: min-content;
+  border: none;
+  font-size: 1.8vh;
 }
 .titleJob {
-    font-family: 'ProximaNova-Bold';
-    font-size: 1.8vh;
+  font-family: "ProximaNova-Bold";
+  font-size: 1.8vh;
 }
 .subtitleJob {
-    font-family: 'ProximaNova-semibold';
-    font-size: 1.4vh;
-    color: #77a4db;
+  font-family: "ProximaNova-semibold";
+  font-size: 1.4vh;
+  color: #77a4db;
 }
 .experiences {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5mm;
-    row-gap: 5mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5mm;
+  row-gap: 5mm;
 }
 .school {
-    font-family: 'ProximaNova-semibold';
-    font-size: 10pt;
-    letter-spacing: 0.3pt;
+  font-family: "ProximaNova-semibold";
+  font-size: 10pt;
+  letter-spacing: 0.3pt;
 }
 .time {
-    font-family: 'ProximaNova-Regular';
-    font-size: 8pt;
+  font-family: "ProximaNova-Regular";
+  font-size: 8pt;
 }
 .resumen.two {
-    line-height: 4mm;
+  line-height: 4mm;
 }
 .line {
-    border-bottom: 1px solid #303578;
-    margin-bottom: 3mm;
+  border-bottom: 1px solid #303578;
+  margin-bottom: 3mm;
 }
 .middleCon {
-    border-bottom: 1mm solid #d8d4e4;
+  border-bottom: 1mm solid #d8d4e4;
 }
 .middleCon2 {
-    border-bottom: 1mm solid #d8d4e4;
-    height: min-content;
+  border-bottom: 1mm solid #d8d4e4;
+  height: min-content;
 }
 .subtitle.skills {
-    width: min-content;
-    border: none;
+  width: min-content;
+  border: none;
 }
 .subTextJob {
-    font-family: 'ProximaNova-Regular';
-    font-size: 6pt;
-    letter-spacing: 0.3pt;
-    line-height: 1.8mm;
-    font-style: oblique;
+  font-family: "ProximaNova-Regular";
+  font-size: 6pt;
+  letter-spacing: 0.3pt;
+  line-height: 1.8mm;
+  font-style: oblique;
 }
 .level {
-    font-family: 'ProximaNova-Semibold';
-    font-size: 10pt;
-    letter-spacing: 0.3pt;
-    color: #77a4db;
-    margin-left: 3mm;
+  font-family: "ProximaNova-Semibold";
+  font-size: 10pt;
+  letter-spacing: 0.3pt;
+  color: #77a4db;
+  margin-left: 3mm;
 }
 .titleJob.eng {
-    font-size: 10pt;
+  font-size: 10pt;
 }
 .engl {
-    width: 50%;
-    margin-left: 6mm;
-    margin-top: 37vh;
+  width: 50%;
+  margin-left: 6mm;
+  margin-top: 37vh;
 }

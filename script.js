@@ -1,29 +1,28 @@
-
 document.addEventListener("DOMContentLoaded", () => {
-    // Escuchamos el click del botón
-    const $boton = document.querySelector("#btnCrearPdf");
-    const $page = document.querySelector("#contenedor");
-    // $boton.addEventListener("click", () => {
-    //     console
-    //     html2canvas(document.body,{
-    //         onrendered:function(canvas){
-         
-    //         // var img=canvas.toDataURL("image/png");
-    //         var doc = new jsPDF();
-    //         // doc.addImage(img,'JPEG',20,20);
-    //         doc.save('test.pdf');
-    //         }
-    //         })
-    // });
-    $boton.addEventListener("click", () => {
-        let chao;
+  // Escuchamos el click del botón
+  const $boton = document.querySelector("#btnCrearPdf");
+  const $page = document.querySelector("#contenedor");
+  // $boton.addEventListener("click", () => {
+  //     console
+  //     html2canvas(document.body,{
+  //         onrendered:function(canvas){
 
-        html2canvas($page).then(canvas => {
-            $page.appendChild(canvas)
-            chao = $page.appendChild(canvas)
-            console.log(chao)
-        });
+  //         // var img=canvas.toDataURL("image/png");
+  //         var doc = new jsPDF();
+  //         // doc.addImage(img,'JPEG',20,20);
+  //         doc.save('test.pdf');
+  //         }
+  //         })
+  // });
+  $boton.addEventListener("click", () => {
+    let chao;
+
+    html2canvas($page).then((canvas) => {
+      $page.appendChild(canvas);
+      chao = $page.appendChild(canvas);
+      console.log(chao);
     });
+  });
 });
 // document.addEventListener("DOMContentLoaded", () => {
 //     // Escuchamos el click del botón
